@@ -28,7 +28,7 @@
   ],
   "posts": [
     {
-      "title": "Today is Thursday",
+      "title": "Today is Tuesday",
       "imageURL": "https://media.giphy.com/media/aTXHpCN7TSpmE/giphy.gif",
       "description": "celebrate thursday",
       "userId": 1,
@@ -52,7 +52,7 @@
       "id": 8
     },
     {
-      "title": "This shouldn't work",
+      "title": "This should work",
       "imageURL": "https://media.giphy.com/media/Rgss7R0Ey0rAY/giphy.gif",
       "description": "miss out here",
       "userId": 1,
@@ -60,7 +60,7 @@
       "id": 10
     },
     {
-      "title": "should not work number 2",
+      "title": "this should work number 2",
       "imageURL": "https://media.giphy.com/media/I4Jmrcjnr8Zfq/giphy.gif",
       "description": "222",
       "userId": 1,
@@ -68,7 +68,7 @@
       "id": 11
     },
     {
-      "title": "One more time to not work",
+      "title": "One more time to work",
       "imageURL": "https://media.giphy.com/media/11qBG0k3hCDRCM/giphy.gif",
       "description": "then you have a story as to why",
       "userId": 1,
@@ -76,15 +76,7 @@
       "id": 12
     },
     {
-      "title": "Let's Add a New One 555",
-      "imageURL": "https://media.giphy.com/media/lQ1nXVifuLqyVAH2Gu/giphy.gif",
-      "description": "So funny!",
-      "userId": 1,
-      "timestamp": 1616515758879,
-      "id": 15
-    },
-    {
-      "title": "Let's Add a New One sdsfsdfsdf",
+      "title": "Great one here.",
       "imageURL": "https://media.giphy.com/media/lQ1nXVifuLqyVAH2Gu/giphy.gif",
       "description": "So funny!",
       "userId": 1,
