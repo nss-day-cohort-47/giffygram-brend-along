@@ -28,38 +28,6 @@
   ],
   "posts": [
     {
-      "id": 2,
-      "imageURL": "https://media.giphy.com/media/26xBI73gWquCBBCDe/giphy.gif",
-      "userId": 6,
-      "description": "Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.\n\nDuis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.",
-      "timestamp": 1615396613715,
-      "title": "Enhanced global utilisation"
-    },
-    {
-      "imageURL": "https://media.giphy.com/media/26xBI73gWquCBBCDe/giphy.gif",
-      "userId": 1,
-      "description": "This is my second post in DB",
-      "timestamp": 1561695022812,
-      "title": "Yeah this is so awesome",
-      "id": 3
-    },
-    {
-      "imageURL": "https://media.giphy.com/media/26xBI73gWquCBBCDe/giphy.gif",
-      "userId": 1,
-      "description": "This is my three post in DB",
-      "timestamp": 1561695022812,
-      "title": "Even Better than the first one",
-      "id": 4
-    },
-    {
-      "title": "Create a NEW POST",
-      "imageURL": "https://media.giphy.com/media/3i7zenReaUuI0/giphy.gif",
-      "description": "It is a great day",
-      "userId": 1,
-      "timestamp": 1615477626968,
-      "id": 5
-    },
-    {
       "title": "Today is Thursday",
       "imageURL": "https://media.giphy.com/media/aTXHpCN7TSpmE/giphy.gif",
       "description": "celebrate thursday",
@@ -82,14 +50,6 @@
       "userId": 1,
       "timestamp": 1615478213207,
       "id": 8
-    },
-    {
-      "title": "Let's try with form tag",
-      "imageURL": "https://media.giphy.com/media/iqfYgtx8oWw4o/giphy.gif",
-      "description": "here it is",
-      "userId": 1,
-      "timestamp": 1615478289198,
-      "id": 9
     },
     {
       "title": "This shouldn't work",
@@ -116,12 +76,20 @@
       "id": 12
     },
     {
-      "title": "One more for the road",
-      "imageURL": "https://media.giphy.com/media/QgixZj4y3TwnS/giphy.gif",
-      "description": "Laughing person",
+      "title": "Let's Add a New One 555",
+      "imageURL": "https://media.giphy.com/media/lQ1nXVifuLqyVAH2Gu/giphy.gif",
+      "description": "So funny!",
       "userId": 1,
-      "timestamp": 1615479011801,
-      "id": 13
+      "timestamp": 1616515758879,
+      "id": 15
+    },
+    {
+      "title": "Let's Add a New One sdsfsdfsdf",
+      "imageURL": "https://media.giphy.com/media/lQ1nXVifuLqyVAH2Gu/giphy.gif",
+      "description": "So funny!",
+      "userId": 1,
+      "timestamp": 1616515857930,
+      "id": 16
     }
   ],
   "messages": []

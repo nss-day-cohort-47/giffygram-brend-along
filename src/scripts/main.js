@@ -1,4 +1,4 @@
-import { getUsers, getPosts, usePostCollection, getLoggedInUser, createPost } from "./data/DataManager.js";
+import { getUsers, getPosts, usePostCollection, getLoggedInUser, createPost, deletePost } from "./data/DataManager.js";
 import { PostList } from "./feed/PostList.js";
 import { NavBar } from "./nav/NavBar.js";
 import { Footer } from "./nav/Footer.js";
@@ -40,13 +40,13 @@ applicationElement.addEventListener("change", event => {
 	event.preventDefault();
 	if (event.target.id === "newPost__submit") {
 	//collect the input values into an object to post to the DB
-	  const title = document.querySelector("input[name='postTitle']").value
+	  const title = document.querySelector("input[name='postTitle']")
 	  const url = document.querySelector("input[name='postURL']").value
 	  const description = document.querySelector("textarea[name='postDescription']").value
 	  //we have not created a user yet - for now, we will hard code `1`.
 	  //we can add the current time as well
 	  const postObject = {
-		  title: title,
+		  title: title.value,
 		  imageURL: url,
 		  description: description,
 		  userId: getLoggedInUser().id,
@@ -61,6 +61,19 @@ applicationElement.addEventListener("change", event => {
 		})
 	}
   })
+
+  applicationElement.addEventListener("click", event => {
+	event.preventDefault();
+	if (event.target.id.startsWith("delete")) {
+		console.log("split", event.target.id.split("__"))
+	  const postId = event.target.id.split("__")[1];
+	  deletePost(postId)
+		.then(response => {
+		  showPostList();
+		})
+	}
+  })
+
   
   const showFilteredPosts = (year) => {
 	//get a copy of the post collection
