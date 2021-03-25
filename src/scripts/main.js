@@ -1,7 +1,7 @@
 import {
 	getUsers, getPosts, usePostCollection, getLoggedInUser,
 	createPost, deletePost, getSinglePost, updatePost,
-	logoutUser, setLoggedInUser, loginUser, registerUser
+	logoutUser, setLoggedInUser, loginUser, registerUser, postLike
 } from "./data/DataManager.js";
 import { PostList } from "./feed/PostList.js";
 import { NavBar } from "./nav/NavBar.js";
@@ -117,6 +117,19 @@ applicationElement.addEventListener("click", event => {
 			})
 	}
 })
+applicationElement.addEventListener("click", event => {
+	event.preventDefault();
+	if (event.target.id.startsWith("like")) {
+	  const likeObject = {
+		 postId: parseInt(event.target.id.split("__")[1]),
+		 userId: getLoggedInUser().id
+	  }
+	  postLike(likeObject)
+		.then(response => {
+		  showPostList();
+		})
+	}
+  })
 
 
 applicationElement.addEventListener("click", event => {

@@ -65,6 +65,24 @@ export const updatePost = postObj => {
 		.then(getPosts)
 }
 
+export const postLike = likeObject => {
+	return fetch(`http://localhost:8088/userLikes/`, {
+		method: "POST",
+		headers: {
+			"Content-Type": "application/json"
+		},
+		body: JSON.stringify(likeObject)
+	})
+		.then(response => response.json())
+		.then(getPosts)
+}
+
+export const getLikes = (postId) => {
+	console.log('getLikes for', postId );
+	
+	return fetch(`http://localhost:8088/userLikes?postId=${postId}`)
+		.then(response => response.json())
+}
 
 let loggedInUser = {}
 

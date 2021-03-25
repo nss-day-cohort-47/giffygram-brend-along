@@ -128,5 +128,72 @@
       "id": 20
     }
   ],
-  "messages": []
+  "messages": [],
+  "userLikes": [
+    {
+      "postId": "6",
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "postId": "7",
+      "userId": 1,
+      "id": 4
+    },
+    {
+      "postId": "7",
+      "userId": 1,
+      "id": 5
+    },
+    {
+      "postId": "18",
+      "userId": 1,
+      "id": 6
+    },
+    {
+      "postId": "18",
+      "userId": 1,
+      "id": 7
+    },
+    {
+      "postId": "18",
+      "userId": 1,
+      "id": 8
+    },
+    {
+      "postId": "18",
+      "userId": 1,
+      "id": 9
+    },
+    {
+      "postId": "18",
+      "userId": 1,
+      "id": 10
+    },
+    {
+      "postId": "20",
+      "userId": 1,
+      "id": 11
+    },
+    {
+      "postId": "20",
+      "userId": 1,
+      "id": 12
+    },
+    {
+      "postId": "20",
+      "userId": 1,
+      "id": 13
+    },
+    {
+      "postId": "20",
+      "userId": 1,
+      "id": 14
+    },
+    {
+      "postId": "20",
+      "userId": 1,
+      "id": 15
+    }
+  ]
 }
